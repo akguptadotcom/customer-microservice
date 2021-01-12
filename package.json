@@ -1,0 +1,29 @@
+{
+  "name": "usermanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@apollo/federation": "^0.20.7",
+    "@google-cloud/pubsub": "^2.7.0",
+    "apollo-server": "^2.19.1",
+    "apollo-server-express": "^2.19.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "graphql-middleware": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "node-json-db": "^1.1.0",
+    "pm2": "^4.5.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arnab",
+  "license": "ISC"
+}
